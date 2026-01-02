@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join • Mandatory Fun</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="index.html">← Home</a>
+    <h1>Join the Discord</h1>
+  </header>
+
+  <main class="page">
+    <div class="card">
+      <p>Click below to join:</p>
+
+      <!-- Replace the href with your Discord invite link -->
+      <a class="btn" href="https://discord.gg/!ADD_LINK_HERE!" target="_blank" rel="noopener noreferrer">
+        Join Discord
+      </a>
+
+      <p class="hint">Tip: use a non-expiring invite link if you want this to always work.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> Mandatory Fun</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
